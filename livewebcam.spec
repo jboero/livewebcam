@@ -5,9 +5,9 @@ Summary:        LiveWebCam for controlling notifications or lights based on webc
 License:	GPLv3
 Source0:	https://github.com/jboero/livewebcam.git
 URL: 		https://github.com/jboero/livewebcam
-BuildRequires:
 Requires:	python3-wxpython4
-%description:	LiveWebCam for controlling notifications or lights based on webcam activity.
+%description
+LiveWebCam for controlling notifications or lights based on webcam activity.
 
 %global debug_package %{nil}
 %prep
