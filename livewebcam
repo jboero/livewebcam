@@ -10,7 +10,7 @@ import wx
 import threading
 import time
 import subprocess
-import notify2
+#import notify2
 from datetime import datetime
 
 def create_menu_item(menu, label, func, icon=None):
