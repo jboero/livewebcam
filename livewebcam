@@ -27,7 +27,7 @@ class TaskBarIcon(wx.adv.TaskBarIcon):
         self.frame = frame
         super(TaskBarIcon, self).__init__()
         notify2.init("Live Webcam")
-        self.set_icon('media/webcam.png')
+        self.set_icon('/usr/share/livewebcam/webcam.png')
         self.Bind(wx.adv.EVT_TASKBAR_LEFT_DOWN, self.on_about)
         self.status = '0'
         self.thread = threading.Thread(target = self.run, args=())
